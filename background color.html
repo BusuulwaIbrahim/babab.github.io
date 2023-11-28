@@ -1,0 +1,21 @@
+<html>
+<head></head>
+<title></title>
+<body>
+<p>Hello world</p>
+<button onclick="sayHello()">Click Me</button>
+<button id="btn">Change Background color</button>
+<script>
+let name = "john"
+function sayHello() {
+alert("hello good evening",name)
+}
+let btn = document.getElementById("btn")
+
+btn.addEventListener('click', function(e) {
+document.body.style.backgroundColor ="red"
+})
+
+</script>
+</body>
+</html>
